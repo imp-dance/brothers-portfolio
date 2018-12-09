@@ -1,0 +1,37 @@
+<main>
+  <div *ngFor="let a of articles; let i = index" [ngClass]="a.tags + ' articlePost'" [attr.data-id]="a.id" (click)="openArticle(i)">
+      <img src="{{a.preImg}}" /> 
+      <div class="previewBox">
+          <div>
+            <strong>{{a.name}}</strong>
+            <span>{{a.date}}</span>
+          </div>
+      </div>
+  </div>
+  <article class="hide">
+      <div class="images" (click)="closeBox()">
+      <div class="videos"></div>
+
+      </div>
+      <div class="context">
+          <table>
+              <tr>
+                  <td>Title:</td>
+                  <td><span class="title"></span></td>
+              </tr>
+              <tr>
+                  <td>About:</td>
+                  <td><span class="about"></span></td>
+              </tr>
+          </table>
+          <br />
+          <a href="#" class="url" target="_blank">Full Resolution</a><br /><br />
+          Tags: <span class="software"></span>
+      </div>
+  </article>
+  <aside class="aboutSection hide">
+    <h2>About!</h2>
+    <br />
+    <a (click)="closeAbout()" class="close">Close</a>
+  </aside>
+</main>

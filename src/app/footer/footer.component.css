@@ -1,0 +1,69 @@
+footer{
+	margin:10px 0 0;
+    display:flex;
+}
+a{
+    color:#000;
+	text-decoration:none;
+	cursor:pointer;
+	display:inline-block;margin-right:5px;
+}
+.right{
+    margin-left:auto;
+}
+.left{
+    flex-grow:1;
+}
+.removeFilter{
+	background: #f7e3e3;
+    padding: 0px 3px;
+}
+.fbfb{
+	display:inline-block;
+	padding:0 1px;
+	border-radius:1px;
+}
+.fbfb:hover{
+	background:#3b5998;
+	color:#fff;
+}
+.youtube:hover .you{
+	color:#000 !important;
+}
+.tube{
+	display:inline-block;
+	padding:0 1px;
+}
+.youtube:hover .tube{
+	color:#fff;
+	background-color:rgb(222, 29, 41);
+	border-radius:2px;
+}
+.youtube:hover{
+	color:rgb(222, 29, 41);
+}
+.vimeo:hover{
+	color:rgb(5, 184, 230);
+}
+.linkedin:hover{
+	color:#000;
+}
+.google:hover  .g{
+	color:rgb(55, 107, 225);
+}
+.google:hover .oneo, .google:hover .e{
+	color:rgb(216, 0, 40);
+}
+.google:hover .secondg{
+	color:rgb(239, 176, 59);
+}
+.google:hover .l{
+	color:rgb(0, 153, 57);
+}
+.twitter:hover{
+	color:rgb(84, 173, 251);
+}
+.filter{
+    display:inline-block;
+    margin-right:5px;
+}
